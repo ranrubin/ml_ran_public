@@ -1,12 +1,12 @@
-#kind: job
-#metadata:
-#  name: remote-git-test
-#  project: default
-#  tag: latest
-#spec:
-#  command: 'main.py'
-#  args: []
-#  image_pull_policy: Always
-#  build:
-#    base_image: mlrun/mlrun:dev
-#    source: git://github.com/ranrubin/ml_ran_public.git
+kind: job
+metadata:
+  name: remote-git-test
+  project: default
+  tag: latest
+spec:
+  command: 'main.py'
+  args: []
+  image_pull_policy: Always
+  build:
+    base_image: mlrun/mlrun:dev
+    source: git://github.com/ranrubin/ml_ran_public.git
