@@ -8,6 +8,5 @@ spec:
   args: []
   image_pull_policy: Always
   build:
-    commands: ['pip install pandas']
     base_image: mlrun/mlrun:dev
     source: git://github.com/ranrubin/ml_ran_public.git
