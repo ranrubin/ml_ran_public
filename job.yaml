@@ -1,6 +1,6 @@
 kind: job
 metadata:
-  name: remote-git-test
+  name: ranchock
   project: default
   tag: latest
 spec:
