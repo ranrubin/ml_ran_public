@@ -4,7 +4,7 @@ metadata:
   project: default
   tag: latest
 spec:
-  command: 'main.py'
+  command: 'python main.py'
   args: []
   image_pull_policy: Always
   build:
