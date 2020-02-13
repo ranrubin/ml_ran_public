@@ -9,6 +9,6 @@ spec:
   image_pull_policy: Always
   build:
     commands: ['pip install mlrun pandas torch torchvision tensorboard tqdm tensorboardX visdom neptune-client']
-    base_image: python:3.6-jessie
+    base_image: mlrun/mlrun:dev
     source: git://github.com/ranrubin/ml_ran_public.git
   
