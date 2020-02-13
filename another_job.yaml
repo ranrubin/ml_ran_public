@@ -1,11 +1,11 @@
-#kind: job
-#metadata:
-#  name: remote-demo4
-#  project: ''
-#spec:
-#  command: 'main.py'
-#  args: []
-#  image_pull_policy: Always
-#  build:
-#    commands: ['pip install mlrun pandas']
-#    base_image: python:3.6-jessie
+kind: job
+metadata:
+  name: remote-demo4
+  project: ''
+spec:
+  command: 'main.py'
+  args: []
+  image_pull_policy: Always
+  build:
+    commands: ['pip install mlrun pandas torch torchvision tensorboard tqdm tensorboardX visdom neptune-client']
+    base_image: python:3.6-jessie
